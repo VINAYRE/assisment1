@@ -5,6 +5,7 @@ import Hom from './Hom';
 export class Navbar extends Component {
     render() {
         return (
+           
             <div>
                <Hom/>
                 <nav class="navbar navbar-expand-lg fixed-top  navbar-light px-2 px-lg-0" id="cus-navbar">
