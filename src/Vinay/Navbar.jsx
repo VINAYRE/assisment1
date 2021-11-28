@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './Navbar.css';
 import Hom from './Hom';
+import Search from './Search';
+import Carts from './Carts';
 
 export class Navbar extends Component {
     render() {
@@ -8,7 +10,6 @@ export class Navbar extends Component {
            
             <div>
                <Hom/>
-               {/* sdlfhsdkjbfkjdbvjk */}
                 <nav class="navbar navbar-expand-lg fixed-top  navbar-light px-2 px-lg-0" id="cus-navbar">
             <div class="container-fluid">
                <div class="d-flex align-items-center logo">
@@ -130,6 +131,8 @@ export class Navbar extends Component {
                </div>
             </div>
          </nav>
+         <Search/>
+         <Carts/>
             </div>
         )
     }

@@ -7,10 +7,8 @@ import ReactDOM from 'react-dom';
 ReactDOM.render(
 
    <>
-   <h1>Heelo </h1>
-   <h1>Heelo </h1>
-   <h1>Heelo </h1>
-   <h1>Heelo </h1>
+   <test/>
+ 
    </>,
 
   document.getElementById('root')
